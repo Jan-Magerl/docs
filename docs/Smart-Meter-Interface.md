@@ -1564,6 +1564,24 @@ Result (with unneeded values commented out):
 	
 ------------------------------------------------------------------------------
 
+### Logarex LK13BD (OBIS)
+
+The script:
+
+```
+>D
+>B
+=>sensor53 r
+>M 1
++1,3,o,0,300,Strom,1,20,2F3F210D0A,063030300D0A
+
+1,1.8.0(@1,Gesamtverbrauch,kWh,total,19
+1,=d 1 36@1,Verbrauch aktuell,W,current,19
+#
+```
+
+------------------------------------------------------------------------------
+	
 ### Logarex LK13BE (OBIS)
 
 The script:
@@ -1585,7 +1603,6 @@ The script:
 ```
 
 ------------------------------------------------------------------------------
-
 ### ABB B23 (MODBus)
 
 Meter is basically the same as [Janitza B23](#janitza-b23-modbus) and also inteface is the same. It's just missing whole section of registers which are used in Janitza B23 example.

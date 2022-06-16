@@ -1603,6 +1603,7 @@ The script:
 ```
 
 ------------------------------------------------------------------------------
+	
 ### ABB B23 (MODBus)
 
 Meter is basically the same as [Janitza B23](#janitza-b23-modbus) and also inteface is the same. It's just missing whole section of registers which are used in Janitza B23 example.
